@@ -39,7 +39,7 @@ boards = [
     ],
 ]
 class Grid:
-    board = boards[1]
+    board = boards[0]
 
     def __init__(self, rows, cols, width, height, win):
         self.rows = rows
